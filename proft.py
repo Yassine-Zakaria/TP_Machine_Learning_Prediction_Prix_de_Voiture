@@ -10,7 +10,7 @@ from sklearn.linear_model import LinearRegression
 data = pd.read_csv('price_prediction.csv', encoding='latin1')
 
 # Sélection des caractéristiques
-X = data[['Prod. year', 'Cylinders', 'Gear box type']]
+X = data[['Prod.year', 'Cylinders', 'Gear box type']]
 
 # Sélection de la variable à prédire
 y = data['Prix']
