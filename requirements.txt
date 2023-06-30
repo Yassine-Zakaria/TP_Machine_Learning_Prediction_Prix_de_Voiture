@@ -1,0 +1,7 @@
+numpy
+SimpleImputer
+train_test_split
+streamlit
+pandas
+RandomForestRegressor
+LinearRegression
