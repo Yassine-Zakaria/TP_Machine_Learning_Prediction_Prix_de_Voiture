@@ -59,7 +59,7 @@ model.fit(X_train_imputed, y_train)
 
 # Prédiction d'une voiture
 Annee = st.slider('Année de la voiture', min_value=2000, max_value=2023)
-Kilometrage = st.slider('Kilométrage de la voiture', min_value=0, max_value=300000, step=1000)
+Kilometrage = st.slider('Kilométrage de la voiture', min_value=0, max_value=300, step=1000)
 Puissance = st.slider('Puissance de la voiture', min_value=50, max_value=500, step=10)
 
 input_data = np.zeros(X.shape[1])
