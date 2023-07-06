@@ -71,3 +71,8 @@ prediction = model.predict([input_data])
 
 # Affichage de la prédiction
 st.write(f'Le prix de cette voiture est estimé à : {prediction[0]:.2f} euros.')
+# Calculer le score du modèle sur les données de test
+score = model.score(X_test_imputed, y_test)
+
+# Afficher le score
+st.write(f'Le score du modèle sur les données de test est : {score:.2f}')
